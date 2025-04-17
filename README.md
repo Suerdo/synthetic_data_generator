@@ -39,28 +39,19 @@ Para a geração dos dados sintéticos, foi adotado o **[CTGAN](https://github.c
 - Preserva as **correlações estatísticas** entre as variáveis.
 - Gera dados sintéticos com alta fidelidade.
 - Lida melhor com dados desbalanceados que métodos tradicionais.
-
 ---
 
 ## Resultados
 
 As análises mostraram resultados satisfatórios:
 
-- A sobreposição parcial das nuvens de pontos no **PCA** confirma que o modelo capturou a estrutura multivariada dos dados originais.
+- A similaridade entre as variâncias de PC1 e PC2 sugere que múltiplas dimensões são igualmente importantes para descrever os dados. A sobreposição parcial das nuvens de pontos no **PCA** confirma que o modelo capturou a estrutura multivariada dos dados originais.
+  ![download](https://github.com/user-attachments/assets/af1da6de-2dc7-4cc4-852b-a5464fc49008)
 - A análise **t-SNE** evidenciou a capacidade do modelo em replicar relações não-lineares entre atributos.
-- Os dados gerados mantêm a utilidade prática e a coerência estatística, sem comprometer a privacidade.
+  ![download](https://github.com/user-attachments/assets/1e7d99a9-952e-43f7-9e43-2b7ffbb452bc)
+- Os dados gerados mantêm a utilidade prática e a coerência estatística, sem comprometer a privacidade. Com o Os valores de Divergência de Jensen-Shannon (JS), RG (0.127) e CPF (0.145)
 
 ---
-
-## Como Usar
-
-### Pré-requisitos
-
-Certifique-se de ter o Python 3.8+ instalado, além das bibliotecas necessárias:
-
-```bash
-pip install sdv faker pandas scikit-learn matplotlib seaborn
-```
 
 ## 📎 Referências
 
