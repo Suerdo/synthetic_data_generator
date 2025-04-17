@@ -49,7 +49,7 @@ As análises mostraram resultados satisfatórios:
   ![download](https://github.com/user-attachments/assets/af1da6de-2dc7-4cc4-852b-a5464fc49008)
 - A análise **t-SNE** evidenciou a capacidade do modelo em replicar relações não-lineares entre atributos.
   ![download](https://github.com/user-attachments/assets/1e7d99a9-952e-43f7-9e43-2b7ffbb452bc)
-- Os dados gerados mantêm a utilidade prática e a coerência estatística, sem comprometer a privacidade. Com o Os valores de Divergência de Jensen-Shannon (JS), RG (0.127) e CPF (0.145)
+- Os dados gerados mantêm a utilidade prática e a coerência estatística, sem comprometer a privacidade. Com os valores de Divergência de Jensen-Shannon (JS), RG (0.127) e CPF (0.145)
 
 ---
 
